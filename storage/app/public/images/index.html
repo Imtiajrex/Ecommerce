@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="top-bar pc">
+      <div class="top-left">
+        <div class="dropdown">
+          <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            EN
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">BN</a>
+            <a class="dropdown-item" href="#">EN</a>
+          </div>
+        </div>
+      </div>
+      <div class="top-right">
+        <ul>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#wishlist">My Wishlist</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#signin">Sign In</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#register">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="top-bar-2 pc">
+      <div class="brand">
+        <img src="logo.png" alt="Brand" />
+      </div>
+      <div class="search-div">
+        <div class="search-box">
+          <div class="search-icon">
+            <i class="fas fa-search"></i>
+          </div>
+
+          <div class="search-text-box">
+            <input type="text" autocomplete="false" placeholder="Search Here..." />
+          </div>
+          <button class="search-btn">
+            <a class="btn">Search</a>
+          </button>
+        </div>
+      </div>
+      <div class="contact-bag">
+        <div class="contact">
+          <a class="contact-btn">Contact Us</a>
+        </div>
+        <div class="bag">
+          <a class="bag-btn" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="fas fa-shopping-bag"></i>
+          </a>
+          <div class="dropdown-menu  dropdown-menu-right mt-3 bag-list" aria-labelledby="dropdownMenuButton">
+            <div class="row">
+
+              <div class="title col-12">
+                <h1>Shopping Bag</h1>
+                <h1 style="font-size: 13px;" class="text-muted">Total Amount: 1500৳</h1>
+              </div>
+              <div class="col-12">
+                <div class="row item">
+                  <div class="product-image col-sm-3">
+                    <img src="../3.jpg">
+                  </div>
+                  <div class="product-details col-sm-8">
+                    <div class="row mb-2">
+                      <div class="col">
+                        <div class="name">
+                          Sic Mundus Creatus Est
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="quantity">
+                          <a>Quantity:</a><a class="text-muted"> 5</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="price">
+
+                          <a>Price:</a><a class="text-muted"> 100৳</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons col-sm-1 d-flex align-items-center p-1">
+                    <a href="#" class="text-danger"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="row item">
+                  <div class="product-image col-sm-3">
+                    <img src="../3.jpg">
+                  </div>
+                  <div class="product-details col-sm-8">
+                    <div class="row mb-2">
+                      <div class="col">
+                        <div class="name">
+                          Sic Mundus Creatus Est
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="quantity">
+                          <a>Quantity:</a><a class="text-muted"> 5</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="price">
+
+                          <a>Price:</a><a class="text-muted"> 100৳</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons col-sm-1 d-flex align-items-center p-1">
+                    <a href="#" class="text-danger"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="row item">
+                  <div class="product-image col-sm-3">
+                    <img src="../3.jpg">
+                  </div>
+                  <div class="product-details col-sm-8">
+                    <div class="row mb-2">
+                      <div class="col">
+                        <div class="name">
+                          Sic Mundus Creatus Est
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="quantity">
+                          <a>Quantity:</a><a class="text-muted"> 5</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="price">
+
+                          <a>Price:</a><a class="text-muted"> 100৳</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons col-sm-1 d-flex align-items-center p-1">
+                    <a href="#" class="text-danger"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="row pl-3 buy">
+                  <a href="#" class="btn btn-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-bar pc">
+      <ul>
+        <li><a href="">New Arrivals</a></li>
+        <li class="hover-dropdown">
+          <a href="">Clothing</a>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#">T-shirt</a></li>
+              <li><a href="#">Hoodie</a></li>
+              <li><a href="#">Shirt</a></li>
+              <li><a href="#">Jeans</a></li>
+              <li><a href="#">Panjabi</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="hover-dropdown">
+          <a href="">Electronics</a>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#">Mobile</a></li>
+              <li><a href="#">Laptop</a></li>
+              <li><a href="#">PC</a></li>
+              <li><a href="#">Sound System</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="hover-dropdown">
+          <a href="">Home Appliances</a>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#">Furniture</a></li>
+              <li><a href="#">Home Assistant</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="hover-dropdown">
+          <a href="">Cosmetics</a>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#">Lipstick</a></li>
+              <li><a href="#">Foundation</a></li>
+              <li><a href="#">Makeup Pack</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="hover-dropdown">
+          <a href="">Medicine</a>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#">Over The Counter</a></li>
+              <li><a href="#">Fever</a></li>
+              <li><a href="#">Headache</a></li>
+              <li><a href="#">Body Ache</a></li>
+              <li><a href="#">Stomach Pain</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="hover-dropdown">
+          <a href="">Health & Beauty</a>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#">Face Wash</a></li>
+              <li><a href="#">Scrub</a></li>
+              <li><a href="#">Exfoliation Pack</a></li>
+              <li><a href="#">Face Pack</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="hover-dropdown">
+          <a href="">Babies & Toys</a>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#">Remote-Controlled</a></li>
+              <li><a href="#">Lego Set</a></li>
+              <li><a href="#">Doll Set</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-nav mobile">
+      <div class="nav">
+        <div class="left">
+          <a class="sidenav-toggler" onclick="openNav()"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="middle">
+          <img src="logo.png" />
+        </div>
+        <div class="right">
+          <a class="search" onclick="searchToggle()"><i class="fas fa-search"></i></a>
+        </div>
+        <div class="mobile-search search-hide">
+          <div class="search">
+            <div class="close-icon" onclick="searchToggle()">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="search-box">
+              <input type="text" placeholder="Search Here..." />
+            </div>
+            <div class="search-btn-div">
+              <a class="search-btn">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sidenav" class="sidenav">
+      <a class="closebtn" onclick="closeNav()">&times;</a>
+      <ul>
+        <li><a href="">New Arrivals</a></li>
+        <li>
+          <a href="#collapse1" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="collapse1">Clothing <i class="fas fa-caret-down"></i></a>
+          <div class="collapse" id="collapse1">
+            <ul>
+              <li><a href="#">T-shirt</a></li>
+              <li><a href="#">Hoodie</a></li>
+              <li><a href="#">Shirt</a></li>
+              <li><a href="#">Jeans</a></li>
+              <li><a href="#">Panjabi</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#collapse2" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="collapse1">Electronics <i class="fas fa-caret-down"></i></a>
+          <div class="collapse" id="collapse2">
+            <ul>
+              <li><a href="#">Mobile</a></li>
+              <li><a href="#">Laptop</a></li>
+              <li><a href="#">PC</a></li>
+              <li><a href="#">Sound System</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#collapse3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse3">Home
+            Appliances <i class="fas fa-caret-down"></i></a>
+          <div class="collapse" id="collapse3">
+            <ul>
+              <li><a href="#">Furniture</a></li>
+              <li><a href="#">Home Assistant</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#collapse4" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="collapse4">Cosmetics <i class="fas fa-caret-down"></i></a>
+          <div class="collapse" id="collapse4">
+            <ul>
+              <li><a href="#">Lipstick</a></li>
+              <li><a href="#">Foundation</a></li>
+              <li><a href="#">Makeup Pack</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#collapse5" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="collapse5">Medicine <i class="fas fa-caret-down"></i></a>
+          <div class="collapse" id="collapse5">
+            <ul>
+              <li><a href="#">Over The Counter</a></li>
+              <li><a href="#">Fever</a></li>
+              <li><a href="#">Headache</a></li>
+              <li><a href="#">Body Ache</a></li>
+              <li><a href="#">Stomach Pain</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#collapse6" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="collapse6">Health & Beauty <i class="fas fa-caret-down"></i></a>
+          <div class="collapse" id="collapse6">
+            <ul>
+              <li><a href="#">Face Wash</a></li>
+              <li><a href="#">Scrub</a></li>
+              <li><a href="#">Exfoliation Pack</a></li>
+              <li><a href="#">Face Pack</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#collapse7" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="collapse7">Babies & Toys <i class="fas fa-caret-down"></i></a>
+          <div class="collapse" id="collapse7">
+            <ul>
+              <li><a href="#">Remote-Controlled</a></li>
+              <li><a href="#">Lego Set</a></li>
+              <li><a href="#">Doll Set</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="slideshow">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="bg-dark slides">
+              <div class="left">
+                <div></div>
+              </div>
+              <div class="right">
+                <h1 class="text-white">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h1>
+                <h3 class="text-light">
+                  Sunt, recusandae, libero ex adipisci doloribus odio tempore
+                  fugiat maxime possimus cupiditate, inventore ratione nulla
+                  fugit esse sequi magnam autem accusantium accusamus?
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-danger slides">
+              <div class="left">
+                <div></div>
+              </div>
+              <div class="right">
+                <h1 class="text-white">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h1>
+                <h3 class="text-light">
+                  Sunt, recusandae, libero ex adipisci doloribus odio tempore
+                  fugiat maxime possimus cupiditate, inventore ratione nulla
+                  fugit esse sequi magnam autem accusantium accusamus?
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-info slides">
+              <div class="left">
+                <div></div>
+              </div>
+              <div class="right">
+                <h1 class="text-white">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h1>
+                <h3 class="text-light">
+                  Sunt, recusandae, libero ex adipisci doloribus odio tempore
+                  fugiat maxime possimus cupiditate, inventore ratione nulla
+                  fugit esse sequi magnam autem accusantium accusamus?
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="contents">
+    <div class="top-products">
+      <div class="title">
+        <a>Our Top Categories</a>
+        <a class="btn">See All</a>
+      </div>
+      <div class="products">
+        <div class="product-div">
+          <div class="product">
+            <div class="image">
+              <img src="1.jpeg" />
+            </div>
+            <div class="name">Fashion</div>
+          </div>
+          <div class="sm-category">Fashion</div>
+        </div>
+        <div class="product-div">
+          <div class="product">
+            <div class="image">
+              <img src="2.jpg" />
+            </div>
+            <div class="name">Utensils</div>
+          </div>
+          <div class="sm-category">Utensils</div>
+        </div>
+        <div class="product-div">
+          <div class="product">
+            <div class="image">
+              <img src="3.jpg" />
+            </div>
+            <div class="name">Fragnance</div>
+          </div>
+          <div class="sm-category">Fragnance</div>
+        </div>
+        <div class="product-div">
+          <div class="product">
+            <div class="image">
+              <img src="4.jpeg" />
+            </div>
+            <div class="name">Baby Toys</div>
+          </div>
+          <div class="sm-category">Baby Toys</div>
+        </div>
+        <div class="product-div">
+          <div class="product">
+            <div class="image">
+              <img src="5.jpg" />
+            </div>
+            <div class="name">Mobile</div>
+          </div>
+          <div class="sm-category">Mobile</div>
+        </div>
+      </div>
+    </div>
+    <div class="featured">
+      <div class="title">
+        <a>Featured Products</a>
+        <a class="btn">See All</a>
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="image">
+            <img src="2.jpg" />
+          </div>
+          <div class="details">
+            <h1 class="name">Lorem Ipsum Prodm Ifhu Kiusa saiad</h1>
+            <h3 class="price">৳ 150</h3>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="3.jpg" />
+          </div>
+          <div class="details">
+            <h1 class="name">Lorem Ipsum Prodm Ifhu Kiusa saiad</h1>
+            <h3 class="price">৳ 150</h3>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="5.jpg" />
+          </div>
+          <div class="details">
+            <h1 class="name">Lorem Ipsum Prodm Ifhu Kiusa saiad</h1>
+            <h3 class="price">৳ 150</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="recommended">
+      <div class="title">
+        <a>Recommended Products</a>
+        <a class="btn">See All</a>
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="image">
+            <img src="2.jpg" />
+          </div>
+          <div class="details">
+            <h1 class="name">Lorem Ipsum Prodm Ifhu Kiusa saiad</h1>
+            <h3 class="price">৳ 150</h3>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="3.jpg" />
+          </div>
+          <div class="details">
+            <h1 class="name">Lorem Ipsum Prodm Ifhu Kiusa saiad</h1>
+            <h3 class="price">৳ 150</h3>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="5.jpg" />
+          </div>
+          <div class="details">
+            <h1 class="name">Lorem Ipsum Prodm Ifhu Kiusa saiad</h1>
+            <h3 class="price">৳ 150</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-content">
+      <div class="title">Lorem Ipsum Dolores</div>
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
+        pariatur aspernatur amet veniam esse architecto temporibus, quaerat,
+        dolor explicabo laudantium tenetur, distinctio non dicta. Assumenda
+        temporibus commodi iusto dolorem nam.
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md">
+              <h3 class="text-title">About Us</h3>
+
+              <ul>
+                <li>
+                  <a href="#" class="links">Link 1</a>
+                </li>
+                <li>
+                  <a href="#" class="links">Link 2</a>
+                </li>
+                <li>
+                  <a href="#" class="links">Link 3</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <h3 class="text-title">Customer Care</h3>
+              <ul>
+                <li>
+                  <a href="#" class="links">Link 1</a>
+                </li>
+                <li>
+                  <a href="#" class="links">Link 2</a>
+                </li>
+                <li>
+                  <a href="#" class="links">Link 3</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <h3 class="text-title">Contact us</h3>
+              <ul>
+                <li>
+                  <a href="#" class="links">Link 1</a>
+                </li>
+                <li>
+                  <a href="#" class="links">Link 2</a>
+                </li>
+                <li>
+                  <a href="#" class="links">Link 3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h3 class="text-title">Subscribe To Our NewsLetter</h3>
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your Email" aria-describedby="button-addon2" />
+            <div class="input-group-append">
+              <button class="btn btn-outline-info" type="button" id="button-addon2">
+                Submit
+              </button>
+            </div>
+          </div>
+          <img src="bkash.png" />
+          <img src="nagad.png" />
+          <img src="rocket.png" />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col text-center">
+          <a href="#" style="color: rgb(0, 110, 255)"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" style="color: rgb(255, 0, 55)"><i class="fab fa-youtube"></i></a>
+          <a href="#" style="color: rgb(255, 0, 132)"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-muted text-center">
+          <a href="#" class="terms" data-toggle="modal" data-target="#termsModal">Terms & Conditions</a>
+          |
+          <a href="#" class="terms" data-toggle="modal" data-target="#privacyModal">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="signin" aria-hidden="true">
+    <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div class="card bg-secondary border-0 mb-0">
+            <div class="card-header bg-transparent pb-5">
+              <div class="text-muted text-center mt-2 mb-3">Sign in</div>
+            </div>
+            <div class="card-body px-lg-5 py-lg-5">
+              <form role="form">
+                <div class="form-group mb-3">
+                  <div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Email" type="email" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Password" type="password" />
+                  </div>
+                </div>
+                <div class="custom-control custom-control-alternative custom-checkbox">
+                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox" />
+                  <label class="custom-control-label" for=" customCheckLogin">
+                    <span class="text-muted">Remember me</span>
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary my-4">
+                    Sign in
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
+    <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div class="card bg-secondary border-0 mb-0">
+            <div class="card-header bg-transparent pb-5">
+              <div class="text-muted text-center mt-2 mb-3">Register</div>
+            </div>
+            <div class="card-body px-lg-5 py-lg-5">
+              <form role="form">
+                <div class="form-group mb-3">
+                  <div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-user"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Full Name" type="text" />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Email" type="email" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Password" type="password" />
+                  </div>
+                </div>
+                <div class="custom-control custom-control-alternative custom-checkbox">
+                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox" />
+                  <label class="custom-control-label" for=" customCheckLogin">
+                    <span class="text-muted">Remember me</span>
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary my-4">
+                    Sign in
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms & Condition Modal -->
+  <div class="modal fade" id="termsModal" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Terms & Conditions
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+          tempore nulla dolores doloribus, repellendus expedita! Laudantium
+          perspiciatis culpa ratione quis tempora unde adipisci nesciunt
+          dolorum officiis, nisi ut, ex voluptatem.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Privacy Policy Modal -->
+  <div class="modal fade" id="privacyModal" role="dialog" aria-labelledby="privacyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Privacy Policy</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+          iste, quidem saepe fugit deserunt laboriosam a eum aliquid provident
+          sed quod suscipit laborum quam ea rem harum iusto cum reprehenderit.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu mobile">
+    <div class="menu">
+      <ul>
+        <li class="active">
+          <i class="fas fa-home"></i>
+          <a href="home">Home</a>
+        </li>
+        <li>
+          <i class="fas fa-heart"></i>
+          <a data-toggle="modal" data-target="#wishlist">Wishlist</a>
+        </li>
+        <li>
+          <a href="Bag">
+            <i class="fas fa-shopping-bag"></i>
+            <a>Bag</a>
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-history"></i>
+          <a>History</a>
+        </li>
+        <li>
+          <a data-toggle="modal" data-target="#signin">
+            <i class="fas fa-user-astronaut"></i>
+            <a>Account</a></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+    $(".btn").dropdown();
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+  $(".collapse").collapse({
+    toggle: false,
+  });
+  $(".carousel").carousel({
+    interval: 10000,
+  });
+
+  function searchToggle() {
+    let searchDiv = $(".mobile-search");
+    if (searchDiv.hasClass("search-hide")) {
+      searchDiv.removeClass("search-hide");
+    } else {
+      searchDiv.addClass("search-hide");
+    }
+  }
+
+  function openNav() {
+    document.getElementById("sidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+  }
+</script>
+
+</html>

@@ -1,0 +1,171 @@
+body {
+  overflow-x: hidden;
+}
+.checkout-component {
+  a {
+    text-decoration: none !important;
+  }
+
+  .breadcrumb {
+    background-color: white !important;
+    font-size: 17px;
+  }
+
+  .top {
+    padding: 0.25rem;
+
+    img {
+      width: 50px;
+      margin: auto;
+    }
+  }
+
+  .top-bar {
+    width: 100%;
+    padding: 1rem 0.25em;
+
+    ol {
+      margin: 0;
+    }
+
+    .col-2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cross {
+      width: auto !important;
+      text-decoration: none;
+      display: block;
+      padding: 0.75rem 1rem;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .top-bar {
+      padding: 0 !important;
+
+      .col-11 {
+        padding: 0;
+
+        ol {
+          padding: 0rem;
+          padding-left: 0.5rem;
+        }
+      }
+
+      .col-1 {
+        padding: 0;
+      }
+
+      .cross {
+        padding: 0 !important;
+      }
+
+      .bag {
+        padding: 0 !important;
+      }
+    }
+  }
+
+  .content {
+    width: 75%;
+    margin: auto;
+
+    h1,
+    th {
+      font-size: 17px;
+    }
+
+    td {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .content {
+      width: 100%;
+    }
+
+    .container-fluid {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .title {
+    padding: 0.5rem;
+
+    h1 {
+      color: rgb(61, 61, 61);
+      font-size: 17px;
+    }
+  }
+
+  img {
+    width: 35px;
+  }
+
+  .bill-form {
+    max-width: 85%;
+  }
+
+  @media (max-width: 750px) {
+    .table {
+      td,
+      th {
+        padding: 0.25rem;
+      }
+    }
+
+    .bill-form {
+      max-width: 100%;
+    }
+  }
+
+  .card {
+    .card {
+      margin: 0;
+      padding: 0;
+
+      .card-header {
+        background-color: white;
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .order {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.2rem;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0px -2px 3px rgba(#000000, $alpha: 0.2);
+    z-index: 15;
+
+    .col {
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 1030px) {
+    body {
+      padding-bottom: 68.4px;
+    }
+
+    .mobile {
+      display: block;
+    }
+
+    .pc {
+      display: none;
+    }
+  }
+}

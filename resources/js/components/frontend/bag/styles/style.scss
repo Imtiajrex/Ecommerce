@@ -1,0 +1,161 @@
+.bag-component {
+  a {
+    text-decoration: none !important;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
+
+  .breadcrumb {
+    background-color: white !important;
+    font-size: 13px;
+  }
+
+  .top {
+    padding: 0.3rem;
+
+    img {
+      width: 50px;
+      margin: auto;
+    }
+  }
+
+  .top-bar {
+    width: 100%;
+    padding: 1rem 0rem;
+
+    ol {
+      margin: 0;
+    }
+
+    .col-2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cross {
+      width: auto !important;
+      text-decoration: none;
+      display: block;
+      padding: 0.75rem 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container-fluid {
+      padding: 0rem 0.3rem;
+    }
+
+    .top-bar {
+      padding: 0 !important;
+      margin: 0;
+
+      .col-11 {
+        padding: 0;
+        margin: 0;
+
+        ol {
+          padding: 0rem;
+        }
+      }
+
+      .col-1 {
+        margin: 0;
+        padding: 0;
+      }
+
+      .cross {
+        padding: 0 !important;
+      }
+
+      .bag {
+        padding: 0 !important;
+      }
+    }
+  }
+
+  .title {
+    padding: 1rem;
+
+    h1 {
+      color: rgb(61, 61, 61);
+      font-size: 19px;
+    }
+  }
+
+  img {
+    width: 75px !important;
+  }
+
+  .item {
+    width: 100%;
+
+    .col-9 {
+      flex: none;
+    }
+  }
+
+  .content {
+    padding: 0;
+    margin: 0;
+
+    .col {
+      padding: 0;
+
+      td,
+      th {
+        padding: 0.35rem;
+        font-size: 17px;
+      }
+
+      .row {
+        margin: 0;
+      }
+
+      .col-12 {
+        padding: 0;
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    .checkout,
+    .total {
+      width: 100%;
+    }
+
+    body {
+      padding-bottom: 150px;
+    }
+  }
+
+  .checkout-menu {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0px -2px 3px rgba($color: #000000, $alpha: 0.1);
+
+    a {
+      width: 100%;
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  @media (max-width: 950px) {
+    .pc {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.store-card {
+    width: 50%;
+}
+@media screen and (max-width: 1000px) {
+    .store-card {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .store-card {
+        width: 98%;
+    }
+}

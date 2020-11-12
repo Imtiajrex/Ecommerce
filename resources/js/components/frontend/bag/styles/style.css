@@ -1,0 +1,161 @@
+.bag-component a {
+  text-decoration: none !important;
+}
+
+.bag-component h1 {
+  font-size: 21px;
+}
+
+.bag-component .breadcrumb {
+  background-color: white !important;
+  font-size: 13px;
+}
+
+.bag-component .top {
+  padding: 0.3rem;
+}
+
+.bag-component .top img {
+  width: 50px;
+  margin: auto;
+}
+
+.bag-component .top-bar {
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.bag-component .top-bar ol {
+  margin: 0;
+}
+
+.bag-component .top-bar .col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bag-component .top-bar .cross {
+  width: auto !important;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .bag-component .container-fluid {
+    padding: 0rem 0.3rem;
+  }
+  .bag-component .top-bar {
+    padding: 0 !important;
+    margin: 0;
+  }
+  .bag-component .top-bar .col-11 {
+    padding: 0;
+    margin: 0;
+  }
+  .bag-component .top-bar .col-11 ol {
+    padding: 0rem;
+  }
+  .bag-component .top-bar .col-1 {
+    margin: 0;
+    padding: 0;
+  }
+  .bag-component .top-bar .cross {
+    padding: 0 !important;
+  }
+  .bag-component .top-bar .bag {
+    padding: 0 !important;
+  }
+}
+
+.bag-component .title {
+  padding: 1rem;
+}
+
+.bag-component .title h1 {
+  color: #3d3d3d;
+  font-size: 19px;
+}
+
+.bag-component img {
+  width: 75px !important;
+}
+
+.bag-component .item {
+  width: 100%;
+}
+
+.bag-component .item .col-9 {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.bag-component .content {
+  padding: 0;
+  margin: 0;
+}
+
+.bag-component .content .col {
+  padding: 0;
+}
+
+.bag-component .content .col td,
+.bag-component .content .col th {
+  padding: 0.35rem;
+  font-size: 17px;
+}
+
+.bag-component .content .col .row {
+  margin: 0;
+}
+
+.bag-component .content .col .col-12 {
+  padding: 0;
+}
+
+@media (max-width: 750px) {
+  .bag-component .checkout,
+  .bag-component .total {
+    width: 100%;
+  }
+  .bag-component body {
+    padding-bottom: 150px;
+  }
+}
+
+.bag-component .checkout-menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  -webkit-box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.bag-component .checkout-menu a {
+  width: 100%;
+}
+
+.bag-component .mobile {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .bag-component .pc {
+    display: none;
+  }
+  .bag-component .mobile {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */
